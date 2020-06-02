@@ -1,0 +1,77 @@
+div.card-messages#user {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  overflow-x: auto;
+  border: 1px solid #00000011;
+  background: #dedede;
+  height: 70vh;
+  width: 500px;
+  border-radius: 6px;
+}
+
+div#message-group {
+  position: relative;
+  display: block;
+  padding: 5px;
+  margin-top: 20px;
+  /* border: 1px solid black; */
+}
+
+div#message-group header {
+  border: 0;
+}
+
+div#message-group header strong {
+  margin-left: -280px;
+}
+
+div#message-group div#body-group {
+  border-bottom: 1px solid #21213401;
+  padding-top: 2px;
+}
+
+div#body-group span {
+  color: #777;
+  padding: 10px 0;
+  margin-left: -10px;
+}
+
+div#body-group p {
+  padding: 0 0;
+  color: #333;
+  margin-left: 10px;
+}
+
+div#friend-group div {
+  display: flex;
+  padding: 8px 20px;
+}
+
+div#friend-group div strong {
+  padding-left: 7px;
+  color: #212134;
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div.container {
+  display: flex;
+  flex-direction: row;
+}
+
+div#get-friend {
+  background-color: #dadada;
+  color: blue;
+  border-radius: 6px;
+  margin-left: 20px;
+  width: 400px;
+  padding: 0 15px;
+}
+
+div#get-friend #friend-x strong {
+  padding-left: 7px;
+  color: #212134;
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+}

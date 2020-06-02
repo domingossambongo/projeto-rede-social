@@ -1,0 +1,208 @@
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+.navbar-icon-top .navbar-nav .nav-link > .fa {
+  position: relative;
+  width: 36px;
+  font-size: 24px;
+}
+
+.navbar-icon-top .navbar-nav .nav-link > .fa > .badge {
+  font-size: 0.75rem;
+  position: absolute;
+  right: 0;
+  font-family: sans-serif;
+}
+
+.navbar-icon-top .navbar-nav .nav-link > .fa {
+  top: 3px;
+  line-height: 12px;
+}
+
+.navbar-icon-top .navbar-nav .nav-link > .fa > .badge {
+  top: -10px;
+}
+
+@media (min-width: 576px) {
+  .navbar-icon-top.navbar-expand-sm .navbar-nav .nav-link {
+    text-align: center;
+    display: table-cell;
+    height: 70px;
+    vertical-align: middle;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .navbar-icon-top.navbar-expand-sm .navbar-nav .nav-link > .fa {
+    display: block;
+    width: 48px;
+    margin: 2px auto 4px auto;
+    top: 0;
+    line-height: 24px;
+  }
+
+  .navbar-icon-top.navbar-expand-sm .navbar-nav .nav-link > .fa > .badge {
+    top: -7px;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-icon-top.navbar-expand-md .navbar-nav .nav-link {
+    text-align: center;
+    display: table-cell;
+    height: 70px;
+    vertical-align: middle;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .navbar-icon-top.navbar-expand-md .navbar-nav .nav-link > .fa {
+    display: block;
+    width: 48px;
+    margin: 2px auto 4px auto;
+    top: 0;
+    line-height: 24px;
+  }
+
+  .navbar-icon-top.navbar-expand-md .navbar-nav .nav-link > .fa > .badge {
+    top: -7px;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-icon-top.navbar-expand-lg .navbar-nav .nav-link {
+    text-align: center;
+    display: table-cell;
+    height: 70px;
+    vertical-align: middle;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .navbar-icon-top.navbar-expand-lg .navbar-nav .nav-link > .fa {
+    display: block;
+    width: 48px;
+    margin: 2px auto 4px auto;
+    top: 0;
+    line-height: 24px;
+  }
+
+  .navbar-icon-top.navbar-expand-lg .navbar-nav .nav-link > .fa > .badge {
+    top: -7px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .navbar-icon-top.navbar-expand-xl .navbar-nav .nav-link {
+    text-align: center;
+    display: table-cell;
+    height: 70px;
+    vertical-align: middle;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .navbar-icon-top.navbar-expand-xl .navbar-nav .nav-link > .fa {
+    display: block;
+    width: 48px;
+    margin: 2px auto 4px auto;
+    top: 0;
+    line-height: 24px;
+  }
+
+  .navbar-icon-top.navbar-expand-xl .navbar-nav .nav-link > .fa > .badge {
+    top: -7px;
+  }
+}
+
+.navbar-custom {
+    color: #FFFFFF;
+    background-color: #244591;
+}
+
+.set-1 {
+  height: 350px;
+  width: 800px;
+  display: flex;
+  margin: 0 auto;
+  position: relative;
+}
+
+.card-set-1 {
+  height: 95%;
+  width: 50%;
+  background: #fff;
+  border: 2px solid #eaeaea;
+  display: block;
+  margin: 10px;
+  border-radius: 10px;
+}
+.card-set-1:before {
+  font-family: FontAwesome;
+  content: "\f05a";
+  font-size: 18px;
+  float: right;
+  color: #d3d3d3;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+.card {
+  margin-top: 20%;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid transparent;
+}
+.card .fa {
+  font-size: 75px;
+  color: #008aff;
+  border: solid transparent;
+}
+
+#user,
+#msg,
+#post {
+  font-family: "Ramabhadra", sans-serif;
+  font-size: 18px;
+  text-align: center;
+  color: #008aff;
+}
+
+.social-icons:hover {
+  cursor: pointer;
+  color: #008aff;
+  border: solid transparent;
+}
+
+.cardb {
+  height: 14%;
+  width: 80%;
+  border-radius: 25px;
+  background: #e8e8e8;
+  border: none;
+  color: #008aff;
+  font-size: 16px;
+  font-weight: 600;
+}
+.cardb:hover {
+  background: #008aff;
+  color: white;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1024px) {
+  .wrapper {
+    display: flex;
+    margin: 5% auto;
+    justify-content: space-evenly;
+  }
+}
+@media screen and (max-width: 777px) {
+  .wrapper {
+    display: block;
+    margin: 5% auto;
+  }
+}
+
